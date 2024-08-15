@@ -1,0 +1,24 @@
+.navbar-brand img{
+    height:40px;
+    width: 40px;
+}
+.nav-item a{
+    color: black;
+}
+.navbar-brand h3{
+    color: rgb(236, 162, 108);  
+}
+.card{
+    border: none;
+    box-shadow:5px 5px 10px lightgray;
+}
+.card-body h4{
+    color: rgb(243, 93, 67);
+    font-family:'Times New Roman', Times, serif;
+    font-style: bold;
+}
+.pagination .page-link {
+    color: #fff; 
+    background-color: #50c8de; 
+    border: 1px solid #3285ddb7; 
+  }

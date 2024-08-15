@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid" >
+          <a class="navbar-brand d-flex align-items-center" href="#">
+            <img src="./images/logo1.png">
+            <h3><b>Brand</b></h3>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#shoes">Shoes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#backpack">Backpack</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="userdropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown link
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="userdropdown">
+                  <li><a class="dropdown-item" href="#registration">Registration</a></li>
+                  <li><a class="dropdown-item" href="#profile">Profile</a></li>
+                  <li><a class="dropdown-item" href="#rating">User Review</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contactus">Contact us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <br><br>
+
+      <!-- Card -->
+      <!-- Shoes card -->
+       
+    <div class="container shoes my-3" id="shoes">
+        <h3><b>Shoes</b></h3>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col ">
+              <div class="card h-100">
+                <img src="./images/shoe-1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"><b>Supply 350</b></h5>
+                  <p class="card-text">The Supply 350 is a cutting-edge sneaker designed for both style and performance. Featuring a sleek, minimalist design, it combines breathable knit fabric with a responsive, cushioned sole for all-day comfort.</p>
+                  <h4><b>$120</b></h4>
+                  <button class="btn btn-danger">Buy now >></button>  <!--button-1-->
+                </div> 
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card h-100">
+                <img src="./images/shoe-2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"><b>Nike 320</b></h5>
+                  <p class="card-text">The Nike 320 is a dynamic running shoe engineered for peak performance. Built with Nike's innovative technology, it offers superior cushioning and energy return, helping you achieve your best run yet.</p>
+                  <h4><b>$200</b></h4>
+                  <button class="btn btn-info rounded-pill">Buy now >></button> <!--button-2-->
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card h-100">
+                <img src="./images/shoe-3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"><b>Red Max</b></h5>
+                  <p class="card-text">The Red Max Shoes are a bold statement in footwear, combining striking design with maximum comfort. These shoes feature a vibrant red colorway that catches the eye, making them perfect for those who love to stand out</p>
+                  <h4><b>$180</b></h4>
+                  <button type="button" class="btn btn-success btn-md">Buy now >></button> <!--button-3-->
+                  
+                </div>
+                
+              </div>
+            </div>
+          </div>
+          <br><br>
+
+          <!-- Backpack card -->
+
+        <div class="container backpack" id="backpack">
+            <h3><b>Backpack</b></h3>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="./images/bag-1.png" class="card-img-top">
+                    <div class="card-body">
+                      <h4><b>$170</b></h4> 
+                      <h5 class="card-title"><b>Red Backpack</b></h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                    <div class="card-footer">
+                        <button type="button" class="btn btn-warning btn-block w-50">Buy Now >></button> <!--button-4-->
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="./images/bag-2.png" class="card-img-top">
+                    <div class="card-body">
+                      <h4><b>$150</b></h4>
+                      <h5 class="card-title"><b>Blue Backpack</b></h5>
+                      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                    <div class="card-footer">
+                        <button type="button" class="btn btn-secondary btn-sm">Buy now >></button> <!--button-5-->
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="./images/bag-3.png" class="card-img-top">
+                    <div class="card-body">
+                      <h4><b>$125</b></h4>
+                      <h5 class="card-title"><b>Black Backpack</b></h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                      <h3></h3>
+                    </div>
+                    <div class="card-footer">
+                        <button type="button" class="btn btn-outline-dark">Outline Danger Button</button> <!--button-6-->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <br><br>
+
+        <!-- Table -->
+        <div class="container">
+            <h2><b>Product listing page</b></h2>
+            <div class="row">
+                <div class="col-10-md">
+                    <div class="table-responsive-sm">
+                        <table class="table table-striped  table-hover table-bordered align-bottom">
+                            <thead class="table-header table-dark">
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Product Name</th>
+                                <th scope="col">Category</th>
+                                <th scope="col">Price</th>
+                                <th scope="col">Status</th>
+                                
+                            </tr>
+                            </thead>
+                            <tbody class="bg-light">
+                                <tr class="table-item table-active">
+                                    <th scope="row">1</th>
+                                    <td>Supply 350</td>
+                                    <td>Sneakers</td>
+                                    <td>$150</td>
+                                    <td><button class="btn btn-danger btn-sm-rounded">View</button></td> <!--button-8-->
+                                    
+                                </tr>
+
+                                <tr class="table-item">
+                                    <th scope="row">2</th>
+                                    <td>Nike 320</td>
+                                    <td>Running Shoes</td>
+                                    <td>$120</td>
+                                    <td><button class="btn btn-warning btn-sm">View</button></td> <!--button-9-->
+                                </tr>
+
+                                <tr class="table-item">
+                                    <th scope="row">3</th>
+                                    <td>Red Max Shoes</td>
+                                    <td>Casual Shoes</td>
+                                    <td>$90</td>
+                                    <td><button class="btn btn-success btn-sm-pill">View</button></td> <!--button-10-->
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <!-- Progress-Bar -->
+        <div class="container">
+            <h3><b>Sales progress</b></h3>
+            <div class="row">
+                <div class="col-6 p-3">
+                    <div class="progress" style="height:40px;">
+                        <div class="progress-bar bg-success" style="width:50%;">75% progress</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <!-- Form-group -->
+
+        <div class="container" id="registration">
+            <h2><b>Registration form</b></h2>
+            <div class="row">
+                <div class="col-10-md">
+                    <div class="form-group mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Please enter your name" required> 
+                    </div>
+                  
+                      <!-- Email Field -->
+                      <div class="form-group mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Please enter a valid email address" required>
+                      </div>
+                  
+                      <!-- Password Field -->
+                      <div class="form-group mb-3">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="Please provide a password"   required>
+                        <p class="text-muted">Must be 8 digit</p>
+                      </div> 
+                    
+                      <!-- checkbox -->
+                      <div class="form-check mb-3">
+                        <input type="checkbox" class="form-check-input" required>
+                        <label class="form-check-label" for="terms">Agree to terms and conditions</label>
+                      </div>
+                    
+                      <!-- Submit -->
+                      <div class="d-grid gap-1 col-10 mx-auto ">
+                        <button class="btn btn-success" type="button">Button</button>  <!--button-7-->
+                      </div>   
+                </div>
+            </div>
+        </div>
+    
+
+        <!-- list-group -->
+        <!-- User Review -->
+        <div class="container userreview" id="rating">
+            <h2><b>User Reviews</b></h2> <br>
+                <div class="row">
+                    <div class="col-8-md">
+                        <div class="list-group list-group-flush">
+                            <a href="#" class="list-group-item list-group-item-success list-group-item-action active ">
+                                <h6>Abir <small class= "text-danger">- 5 stars</small></h6>
+                                <p>Great product! Highly recommend.</p>
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-warning list-group-item-action">
+                                <h6>Adil <small class="text-danger">- 5 stars</small></h6>
+                                <p>Great for running, but could use more cushioning. Lightweight and breathable</p>
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-primary list-group-item-action">
+                                <h6>Anorag <small class="text-success">- 4 stars</small></h6>
+                                <p>Super comfortable and stylish! Perfect for daily wear. Highly recommend.</p>
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-light list-group-item-action disabled">
+                                <h6>Saham <small class="text-success">- 4 stars</small></h6>
+                                <p>Keeps drinks cold for hours, and love the sustainable design. A must-have.</p>
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-dark list-group-item-action">
+                                <h6>Jisan <small class="text-warning">- 3 stars</small></h6>
+                                <p>Good value for the price.</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>  
+        </div>
+        <br> <br>
+
+        <!-- pagination -->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav>
+                        <ul class="pagination justify-content-end pagination-lg ">
+                            <li class="page-item page-item-dark "><a href="#" class="page-link">Previous</a></li>
+                            <li class="page-item"><a href="#" class="page-link">1</a></li>
+                            <li class="page-item"><a class="page-link">2</a></li>
+                            <li class="page-item active"><a class="page-link">3</a></li>
+                            <li class="page-item"><a class="page-link">4</a></li>
+                            <li class="page-item"><a class="page-link">Next</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        
+
+
+
+
+
+    
+
+<script src="js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
